@@ -99,6 +99,20 @@ body {
     margin-top: -200px;
     cursor: pointer;
 }
-@media only screen and (max-width: auto) {
-    .logo img
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .logo,
+    img {
+        .logo img {
+            width: 200px;
+            height: auto;
+            float: right;
+            margin: -20 0 0 0;
+        }
+        .logo p {
+            color: #ddd;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
 }
