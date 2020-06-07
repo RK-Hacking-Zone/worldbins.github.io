@@ -101,7 +101,7 @@ body {
 }
 
   @media screen and (min-width: 620px) {
-        .logo img, .logo p {
+        .logo img {
             left: 43%;
         }
     }
