@@ -102,8 +102,4 @@ footer p {
     color: #ddd;
     margin-bottom: 20px;
 }
-@media only screen and (max-width: 600px) 
-{
-    .logo img, .logo p, .logo h4 {
-        max-width: 600px;
-}
+
