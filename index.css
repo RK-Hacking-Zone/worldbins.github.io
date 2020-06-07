@@ -122,7 +122,7 @@ footer p {
         text-align: center;
         margin: 0;
     }
-    logo button {
+    .logo button {
         padding: 10px;
         font-size: 19px;
         color: #ddd;
