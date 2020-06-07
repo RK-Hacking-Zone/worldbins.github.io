@@ -111,4 +111,28 @@ footer p {
     color: #ddd;
     margin-bottom: 20px;
 }
-
+ @media (max-width: 500px) {
+                                                .logo h2 {
+                                                    font-size: 25px;
+                                                    margin: 30px;
+                                                    text-align: center;
+                                                }
+                                                .logo p {
+                                                    font-size: 24px;
+                                                    text-align: center;
+                                                    margin: 0;
+                                                }
+                                                logo button {
+                                                    padding: 10px;
+                                                    font-size: 19px;
+                                                    color: #ddd;
+                                                    border-radius: 40px;
+                                                    background-color: #050d25;
+                                                    border: #050d25;
+                                                    cursor: pointer;
+                                                    margin: -1px;
+                                                }
+                                                footer p {
+                                                    padding: 10px;
+                                                }
+                                            }
