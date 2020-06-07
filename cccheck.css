@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #050d25;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 19px;
+    color: #ddd;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.active {
+    color: #19dafa !important;
+}
+
+.drop {
+    float: right;
+    overflow: hidden;
+    margin: 1px 1% 0 0;
+}
+
+.drop .dropbtn {
+    font-size: 19px;
+    border: none;
+    outline: none;
+    color: #ddd;
+    padding: 14px 14px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.drop-con {
+    display: none;
+    position: absolute;
+    min-width: 90px;
+    z-index: 1;
+}
+
+.drop-con a {
+    float: none;
+    color: #ddd;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    background-color: #050d25;
+    text-align: left;
+    margin: 0 0 0 -30px;
+}
+
+.drop-con a:hover {
+    background-color: #08153b;
+    color: #19dafa;
+}
+
+.drop:hover .drop-con {
+    display: block;
+}
+
+.cont img {
+    width: 360px;
+    height: auto;
+    margin: -30 0 0 0;
+    float: right;
+}
+
+.cont h2 {
+    margin-left: 130px;
+    color: #19dafa;
+    margin-top: 100px;
+}
+
+.cont p {
+    margin-left: 130px;
+    color: #ddd;
+    font-size: 19px;
+}
+
+.cont h4 {
+    margin-left: 130px;
+    color: #19dafa;
+    font-size: 19px;
+}
+
+.cont h4 a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer {
+    overflow: hidden;
+}
+
+footer p {
+    text-align: center;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    .cont img {
+        width: 100%;
+    }
+    .cont h2 {
+        text-align: center;
+        margin: 0;
+    }
+    .cont p {
+        margin: 20px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .cont h4 {
+        margin: 0;
+        text-align: center;
+    }
+    .cont h4 a {
+        margin: 0;
+    }
+    footer {
+        margin-top: 20px;
+        padding: 12px;
+    }
+}
