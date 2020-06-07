@@ -94,6 +94,6 @@ body {
     margin-top: -200px;
     cursor: pointer;
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: auto) {
     .logo img
 }
