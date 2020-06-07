@@ -51,6 +51,7 @@ body {
     padding: 12px;
     text-decoration: none;
     display: block;
+    background-color: #050d25;
     text-align: left;
     margin: 0 0 0 -30px;
 }
@@ -91,6 +92,7 @@ body {
     background-color: #050d25;
     border: #050d25;
     cursor: pointer;
+    margin-top: -50px;
 }
 
 .logo i {
@@ -100,14 +102,13 @@ body {
     cursor: pointer;
 }
 
-  @media screen and (min-width: 620px) {
-        .logo img {
-            left: 43%;
-        }
-    }
- @media screen and (min-width: 620px) {
-        .logo p {
-            font-size: 17px;
-            text-align: center;
-        }
-    }
+footer {
+    overflow: hidden;
+}
+
+footer p {
+    text-align: center;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
