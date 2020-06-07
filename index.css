@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #050d25;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 19px;
+    color: #ddd;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.active {
+    color: #19dafa !important;
+}
+
+.drop {
+    float: right;
+    overflow: hidden;
+    margin: 1px 1% 0 0;
+}
+
+.drop .dropbtn {
+    font-size: 19px;
+    border: none;
+    outline: none;
+    color: #ddd;
+    padding: 14px 14px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.drop-con {
+    display: none;
+    position: absolute;
+    min-width: 90px;
+    z-index: 1;
+}
+
+.drop-con a {
+    float: none;
+    color: #ddd;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 0 0 0 -30px;
+}
+
+.drop:hover .drop-con {
+    display: block;
+}
+
+.logo img {
+    width: 350px;
+    height: auto;
+    float: right;
+    margin: -30 0 0 0;
+}
+
+.logo h2 {
+    color: #19dafa;
+    font-size: 30px;
+    margin: 130px 0px 0px 130px;
+}
+
+.logo p {
+    color: #ddd;
+    margin: 50px 0 0 130px;
+    font-size: 23px;
+}
+
+.logo button {
+    padding: 10px;
+    font-size: 19px;
+    color: #ddd;
+    border-radius: 40px;
+    background-color: #050d25;
+    border: #050d25;
+    cursor: pointer;
+}
+
+.logo i {
+    color: #19dafa;
+    margin-left: 253px;
+    margin-top: -33px;
+    cursor: pointer;
+}
