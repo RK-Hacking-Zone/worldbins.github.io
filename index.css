@@ -55,6 +55,11 @@ body {
     margin: 0 0 0 -30px;
 }
 
+.drop-con a:hover {
+    background-color: #08153b;
+    color: #19dafa;
+}
+
 .drop:hover .drop-con {
     display: block;
 }
